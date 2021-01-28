@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>All Visualizations</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Resources/bootstrap3.css">
+  <link href="Resources/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">Latitude</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto navbar-right">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+	 <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="temperature.html">Lat vs Temp</a>
+          <a class="dropdown-item" href="humidity.html">Lat vs Humidity</a>
+          <a class="dropdown-item" href="clouds.html">Lat vs Clouds</a>
+          <a class="dropdown-item" href="wind.html">Lat vs Wind Speed</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="comparison.html">Comparisons</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="data.html">Data</a>
+      </li>
+      
+	  </ul>
+  </div>
+</nav>
+  
+<div class="container text-center">    
+    
+<div class="col"> 
+	<div class="Jumbotron-Fluid">
+	<h1 class="display-3"> Comparison: Latitude vs X</h1>
+	<hr class="my-4">
+	<h4 class="lead">Click on any plot to get an in-depth analysis.</h4>
+	</div>
+	<div class="row">
+	  <div class="col-lg-6"><h2>vs. Max Temperature</h2><a href="temperature.html"><img src="Resources/assets/images/Fig1.png" class="img-fluid vizpage" alt="Latitude vs Max Temperature"/></a></div>
+	  <div class="col-lg-6"><h2>vs. Humidity</h2><a href="humidity.html"><img src="Resources/assets/images/Fig2.png" class="img-fluid vizpage" alt="Latitude vs Humidity"/></a></div>
+    </div>
+	<div class="row">
+	  <div class="col-lg-6"><h2>vs. Cloudiness</h2><a href="clouds.html"><img src="Resources/assets/images/Fig3.png" class="img-fluid vizpage" alt="Latitude vs Cloudiness"/></a></div>
+	  <div class="col-lg-6"><h2>vs. Wind Speed</h2><a href="wind.html"><img src="Resources/assets/images/Fig4.png" class="img-fluid vizpage" alt="Latitude vs Wind Speed"/></a></div>
+    </div>
+  </div>
+</div>
+
+<footer class="container text-center">
+  <p>This website is part of the Case Western Reserve University's Data Analytics bootcamp as completed by Jon Smart.</p>
+</footer>
+  <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
